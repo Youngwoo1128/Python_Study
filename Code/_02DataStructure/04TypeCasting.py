@@ -11,8 +11,11 @@ inputValue = input("값 입력 : ")
 print(int(inputValue))
 print(type(int(inputValue))) #<class 'int'>
 
-print(bool(inputValue))
-print(type(bool(inputValue)))
+print(bool(inputValue)) #True
+print(type(bool(inputValue))) #<class 'bool'>
+# ????? 이거 왜이럼 
+
 
 print(chr(inputValue))
 print(type(chr(inputValue)))
+# 위에거 에러 string은 int 로 type casting 불가
