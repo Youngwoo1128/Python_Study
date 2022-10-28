@@ -26,3 +26,4 @@ print("12" > "34")
 # False
 
 print("3.14" > "3")
+# True

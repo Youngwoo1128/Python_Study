@@ -10,3 +10,13 @@ sum = 0
 for i in range(inputValue):
     sum += i + 1
 print(sum)
+
+
+"""
+복합 할당 연산자
+똑같음
++=
+-=
+*=
+/=
+"""

@@ -40,8 +40,12 @@ print(result)
 appleappleapple
 """
 
-inputFruit = str(input("과일이름을 입력하세요:"))
-repeatNumber = int(input("출력할 횟수를 입력하세요:"))
-result = inputFruit * repeatNumber
-print(result)
+# inputFruit = str(input("과일이름을 입력하세요:"))
+# repeatNumber = int(input("출력할 횟수를 입력하세요:"))
+# result = inputFruit * repeatNumber
+# print(result)
 # 통과
+
+# repeatNumber 에 음수를 넣는다면?
+# 아무것도 안나옴.
+# 에러는 아닌데 아무것도 안나옴 0으로 인식하나봄

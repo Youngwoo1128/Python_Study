@@ -11,5 +11,8 @@ print(string)
 print("woo" * 3)
 
 # 그럼 이거는??
-string = "startCoding" * 1.1
-print(string)
+# string = "startCoding" * 1.1
+# print(string)
+# 에러 ㅋㅋㅋ
+# TypeError: can't multiply sequence by non-int of type 'float'
+# 나누기도 안됨 ㅋㅋ
