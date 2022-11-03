@@ -11,3 +11,12 @@ person_info = [
 print(person_info)
 print(person_info[0][0])
 print(person_info[1][1])
+
+"""
+append 를 한다면?
+"""
+person_info.append(["정준하", 50, "남"])
+print(person_info)
+
+del person_info[1]
+print(person_info)
