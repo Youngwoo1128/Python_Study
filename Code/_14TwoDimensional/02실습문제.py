@@ -58,8 +58,12 @@ print("=================================")
 """
 
 lotto_num = []
-
-for i in range(6):
+count = 0
+while True:
     num = random.randint(1, 45)
     if num not in lotto_num:
         lotto_num.append(num)
+        count += 1
+        if count == 6: 
+            break
+print(lotto_num)

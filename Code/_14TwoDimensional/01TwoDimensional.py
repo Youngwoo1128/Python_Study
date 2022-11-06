@@ -20,3 +20,4 @@ print(person_info)
 
 del person_info[1]
 print(person_info)
+# [['유재석', 51, '남'], ['하하', 44, '남'], ['정준하', 50, '남']]
