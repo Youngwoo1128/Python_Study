@@ -18,6 +18,7 @@ print(sayHi)
 # 문자 자르기
 text = "파이썬 아따 쉽구마잉~!"
 print(text.split())
+
 # 얘는 리스트로 리턴하는것 같음
 fruits = "orange,bananna,pineapple"
 print(fruits.split(","))
