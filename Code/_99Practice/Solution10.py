@@ -11,13 +11,13 @@ def solution(text, anagram, sw):
         while pointer < anagramSize:
             for i in anagram:
                 array[i] = convertList[pointer]
-            pointer += 1
+                pointer += 1
             
     else:
         while pointer < anagramSize:
             for i in anagram:
                 array[pointer] = convertList[i]
-            pointer += 1
+                pointer += 1
             
     answer = "".join(array)
     return answer
