@@ -5,13 +5,12 @@
 "bus" -> "bs"
 """
 
-my_string = "nice to meet you"
+my_string = "bus"
 moum = ["a", "e", "i", "o", "u"]
-answer = ""
 
 for i in my_string:
     if i in moum:
-        my_string.replace(i, "")
+        moum = my_string.replace(i, "")
     else: 
         continue
 

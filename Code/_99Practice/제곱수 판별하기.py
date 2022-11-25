@@ -16,6 +16,3 @@ else :
     answer = 2
 
 print(answer)
-
-one = 1
-print(one.is_integer())
